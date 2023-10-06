@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <head>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body background="img/contacform.png">
+       
+    
+        <br><br><br><br><br><br>
+        <center>
+        <form method="POST" id="miFormulario">
+            <fieldset>
+                <legend>MI FORMULARIO</legend>
+                <table>
+                    <tr>
+                        <td><h5>Ingresa tu nombre:</h5></td>
+                        <td><input type="text" name="nombre"id="nombre"></td>
+                        <td><h5>Ingresa tu EDAD:</h5></td>
+                        <td><input type="number" name="edad" ></td>
+                    </tr>
+                    <tr>
+                        <td><h5>Ingresa tu correo: </h5></td>
+                        <td><input type="email" name="elcorreo" id="elcoreo"></td>
+                        <td><h5>Ingresa una contraseña:</h5></td>
+                        <td><input type="password" name="password1"></td>
+                    </tr>
+                    <tr>
+                        <td><h5>Ingresa tu genero:</h5></td>
+                        <td>
+                            <input type="radio" name="genero" value="masculino">Masculino<br>
+                            <input type="radio" name="genero" value="femenino">Femenino<br>
+                            <td><h5>Hobbies:</h5></td>
+                        <td>
+                            <input type="checkbox" name="hobbie1" value="nadar">Nadar<br>
+                            <input type="checkbox" name="hobbie2" value="correr">Correr<br>
+                            <input type="checkbox" name="hobbie3" value="bucear">Bucear<br>
+                            <input type="checkbox" name="hobbie4" value="todas" checked>Todas las anteriores<br>
+                        </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h5>Estado civil:</h5></td>
+                        <td>
+                            <select name="edocivil">
+                                <option disabled selected>Seleccione uno</option>
+                                <option value="Casado">Casado</option>
+                                <option value="Soltero">Soltero</option>
+                                <option value="Viudo">Viudo</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+
+                <br><br><br>
+                <input type="submit" value="Procesar datos">
+            </fieldset>
+        </form>
+    </center>
+
+
+    </body>
+<html>
